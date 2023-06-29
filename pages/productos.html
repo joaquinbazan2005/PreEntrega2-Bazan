@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- segundo html "responsive" -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,7 @@
     <!-- Nav inicia -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="">JOTA</a>
+        <a class="navbar-brand" href="../index.html">jota</a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -36,37 +37,52 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">inicio</a>
+                    <a class="nav-link" href="../index.html">inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/productos.html">Productos</a>
+                    <a class="nav-link" href="pages/productos.html">productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./contacto.html">contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="./nosotros.html">nosotros</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- NAV Finaliza -->
 
-    
-    <Main>
-        <h1 class="centro">Productos</h1>
+    <!-- main primera pre entrega!  -->
+    <!-- <Main>
+        <h1 class="centro">productos</h1>
         <p class="centro">Todos los productos de nuestra marca</p>
         <br>
         <a href="../Productos/Remera.html"><img src="../multimedia/Remera producto.jpg" class="product_img"> </a>
         <Br></Br>
         <a class="Prc" href="../Productos/Remera.html">Remera negra</a>
-    </Main>
+    </Main> -->
 
-    
+    <main>
+        <div class="jumbotron centro">
+            <h1>productos</h1>
+            <p>todos los productos de nuestra marca</p>
+        </div>
+        <div class="main-producto">
+            <button>
+                <a href="../Productos/Remera.html" class="boton">
+                <img src="../multimedia/Remera producto.jpg" alt="">
+                <br>
+                remera negra
+                </a>
+            </button>
+        </div>
+    </main>
+
     
     <footer class="footer centro">
         <ul>
-            <li> <a href="../index.html" class="Pages">Home</a> </li>
+            <li> <a href="../index.html" class="Pages">inicio</a> </li>
             <li>Terminos y condiciones</li>
             <li>Avisos legales</li>
             <li>Contacto</li>

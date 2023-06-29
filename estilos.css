@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-a{
-    text-decoration: none;
-}
-
 body{
     background-color: lightgray;
 }
@@ -33,19 +29,8 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
-
-.main_img{
-    height: 50vh;
-    width: auto;
-    display: inline-block;
-    }
-
-.subrem{
-    display: inline-block;
-    vertical-align: 550%;
-}  
 
 .Pages{
     color: white;
@@ -56,25 +41,35 @@ body{
     width: auto;
 }
 
-.IMG{
-    height: 50vh;
-    width: 50vh;
-    display: inline-block;
-    position: absolute;
-    bottom: 25%;
-}
-
-.tire{
-    text-align: center;
-    }
-
-.Prc{
+.boton{
     color: black;
-    font-size: 26px;
+}
+.boton:hover{
+    text-decoration: none;
+    color:black
 }
 
-.prox{
-    height: 100vh;
-    width: 200vh;
-    object-fit: cover;
+.pages:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.main-producto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.main-nos{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
