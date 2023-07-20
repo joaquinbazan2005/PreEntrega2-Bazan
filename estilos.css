@@ -5,12 +5,19 @@
     text-transform: uppercase;
 }
 
+html{
+    height: 100%;
+}
+
 .centro{
     text-align: center;
 }
 
 body{
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .navbar{
@@ -22,14 +29,16 @@ body{
     background-color: lightgray;
 }
 
-
 .footer{
+    margin-top: auto;
     color: white;
-    background-color:rebeccapurple;
-    position: absolute;
-    bottom: 0;
+    background-color: rebeccapurple;
     width: 100%;
     padding: 5px;
+}
+
+a.Pages:hover{
+    color: white;
 }
 
 .Pages{
@@ -59,12 +68,21 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
+    padding: px;
 }
 
 .iconos{
     display: flex;
     align-items: center;
     justify-content:space-around;
+    margin: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-nos{
@@ -72,4 +90,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.form{
+    margin: 10px;
+    padding: 30px;
 }
