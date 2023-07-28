@@ -1,98 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: uppercase;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
 }
 
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
-.centro{
-    text-align: center;
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+body .centro {
+  text-align: center;
 }
 
-body{
-    background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+.jumbotron {
+  background-color: lightgray;
+  text-shadow: rebeccapurple 0 0 30px;
 }
 
-.navbar{
-    background-color: rebeccapurple !important;
+.navbar {
+  background-color: rebeccapurple !important;
 }
 
-.jumbotron{
-    text-shadow: blueviolet 0px 0px 25px;
-    background-color: lightgray;
+.footer {
+  margin-top: auto;
+  color: white;
+  background-color: rebeccapurple;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+}
+.footer a.Pages:hover {
+  color: white;
+}
+.footer .Pages {
+  color: white;
+  text-decoration: none;
 }
 
-.footer{
-    margin-top: auto;
-    color: white;
-    background-color: rebeccapurple;
-    width: 100%;
-    padding: 5px;
+.main-producto {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+}
+.main-producto .boton {
+  color: black;
+}
+.main-producto .boton .boton:hover {
+  text-decoration: none;
+  color: white;
 }
 
-a.Pages:hover{
-    color: white;
+.main-nos, .des-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin: 15px;
 }
 
-.Pages{
-    color: white;
+.iconos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
 }
 
-.product_img{
-    height: 40vh;
-    width: auto;
+body .formulario {
+  padding: 0 1.5em;
+  box-sizing: border-box;
+  background-color: rgb(172, 172, 172);
 }
 
-.boton{
-    color: black;
-}
-.boton:hover{
-    text-decoration: none;
-    color:black
-}
-
-.pages:hover{
-    text-decoration: none;
-    color: white;
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
 }
 
-.main-producto{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: px;
+.contact-wrapper {
+  box-shadow: 0 0 30px 0 rebeccapurple;
 }
 
-.iconos{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    margin: 30px;
+.contact-wrapper > * {
+  padding: 1em;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contact-form {
+  background-color: lightgray;
+}
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.contact-form form button, .contact-form form input, .contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: black;
+  border-bottom: 1px solid rebeccapurple;
+}
+.contact-form form button {
+  background-color: rebeccapurple;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.contact-form form button:hover, .contact-form form button:focus {
+  background-color: violet;
+  color: black;
+  transition: background color 1s ease-out;
 }
 
-.main-nos{
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.contact-info ul {
+  list-style: none;
+  padding: 0;
 }
-
-.form{
-    margin: 10px;
-    padding: 30px;
+.contact-info h6, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
 }
+.contact-info ul li {
+  padding: 0.3em;
+}/*# sourceMappingURL=estilos.css.map */
